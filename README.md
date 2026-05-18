@@ -28,15 +28,13 @@ Sugestão: abra direto no navegador do celular para testar a experiência mobile
 - `JavaScript` puro (`Vanilla JS`)
 - `ES Modules` com `script type="module"`
 
-### Backend / dados
+### Dados
 
-- `Supabase`
-- Banco consultado via API usando o cliente oficial do Supabase
+- `JSON` local versionado no repositorio
+- Base carregada diretamente pelo navegador sem dependencia de backend
 
 ### Bibliotecas e serviços externos
 
-- `@supabase/supabase-js`
-  Fonte: carregada via `jsDelivr CDN`
 - `Google Fonts`
   Fonte usada: `Poppins`
 
@@ -59,8 +57,8 @@ Toda a interface foi construída com HTML, CSS e JavaScript puro.
 - [pages/line-detail.html](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/pages/line-detail.html): detalhe de cada linha
 - [js/app.js](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/js/app.js): lógica principal de rotas
 - [js/lines.js](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/js/lines.js): listagem e detalhe das linhas
-- [js/api.js](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/js/api.js): consultas de dados
-- [js/supabase.js](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/js/supabase.js): configuração do Supabase
+- [js/api.js](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/js/api.js): camada de dados baseada em JSON local
+- [data/metro-data.json](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/data/metro-data.json): base congelada com linhas, estações, paradas, trechos e baldeações
 - [css/style.css](/home/emanuel.costa@ikatec.com.br/Área%20de%20trabalho/metro-sp/css/style.css): estilos globais
 
 ## Como rodar
@@ -70,6 +68,16 @@ Como o projeto é estático e usa JavaScript no navegador, basta abrir a URL pub
 `https://iemaneul.github.io/mobilidade-sp/`
 
 Se quiser rodar localmente, você pode servir a pasta do projeto com qualquer servidor estático simples.
+
+## Base estática
+
+As telas continuam as mesmas, mas agora os dados sao lidos de um unico arquivo local:
+
+- `data/metro-data.json`
+
+Isso evita criar uma pagina por estacao e tambem remove a dependencia do Supabase para a consulta publica.
+
+Se um dia voces quiserem atualizar a base, basta gerar novamente esse JSON com os dados mais recentes e publicar junto do projeto.
 
 ## Observações
 

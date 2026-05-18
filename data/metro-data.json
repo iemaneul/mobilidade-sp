@@ -1,0 +1,5794 @@
+{
+  "linhas": [
+    {
+      "id": 1,
+      "numero": "1",
+      "nome": "Azul",
+      "cor": "#1934A3",
+      "text_color": "#FFFFFF",
+      "operadora": "Metro",
+      "ativo": true
+    },
+    {
+      "id": 9,
+      "numero": "10",
+      "nome": "Turquesa",
+      "cor": "#2AB7CA",
+      "text_color": "#FFFFFF",
+      "operadora": "CPTM",
+      "ativo": true
+    },
+    {
+      "id": 10,
+      "numero": "11",
+      "nome": "Coral",
+      "cor": "#F05A28",
+      "text_color": "#FFFFFF",
+      "operadora": "CPTM",
+      "ativo": true
+    },
+    {
+      "id": 11,
+      "numero": "12",
+      "nome": "Safira",
+      "cor": "#0072CE",
+      "text_color": "#FFFFFF",
+      "operadora": "CPTM",
+      "ativo": true
+    },
+    {
+      "id": 12,
+      "numero": "13",
+      "nome": "Jade",
+      "cor": "#00A651",
+      "text_color": "#FFFFFF",
+      "operadora": "CPTM",
+      "ativo": true
+    },
+    {
+      "id": 13,
+      "numero": "15",
+      "nome": "Prata",
+      "cor": "#B7B7B7",
+      "text_color": "#FFFFFF",
+      "operadora": "Metro",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "numero": "2",
+      "nome": "Verde",
+      "cor": "#008061",
+      "text_color": "#FFFFFF",
+      "operadora": "Metro",
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "numero": "3",
+      "nome": "Vermelha",
+      "cor": "#EE3E42",
+      "text_color": "#FFFFFF",
+      "operadora": "Metro",
+      "ativo": true
+    },
+    {
+      "id": 4,
+      "numero": "4",
+      "nome": "Amarela",
+      "cor": "#FFD200",
+      "text_color": "#000000",
+      "operadora": "ViaQuatro",
+      "ativo": true
+    },
+    {
+      "id": 5,
+      "numero": "5",
+      "nome": "Lilás",
+      "cor": "#A64CA6",
+      "text_color": "#FFFFFF",
+      "operadora": "ViaMobilidade",
+      "ativo": true
+    },
+    {
+      "id": 6,
+      "numero": "7",
+      "nome": "Rubi",
+      "cor": "#A61E22",
+      "text_color": "#FFFFFF",
+      "operadora": "CPTM",
+      "ativo": true
+    },
+    {
+      "id": 7,
+      "numero": "8",
+      "nome": "Diamante",
+      "cor": "#9E9E9E",
+      "text_color": "#FFFFFF",
+      "operadora": "ViaMobilidade",
+      "ativo": true
+    },
+    {
+      "id": 8,
+      "numero": "9",
+      "nome": "Esmeralda",
+      "cor": "#00A88E",
+      "text_color": "#FFFFFF",
+      "operadora": "ViaMobilidade",
+      "ativo": true
+    }
+  ],
+  "estacoes": [
+    {
+      "id": 78,
+      "nome": "AACD-Servidor",
+      "slug": "aacd-servidor",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 71,
+      "nome": "Adolfo Pinheiro",
+      "slug": "adolfo-pinheiro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 12,
+      "nome": "Aeroporto-Guarulhos",
+      "slug": "aeroporto-guarulhos",
+      "municipio": "Guarulhos",
+      "ativo": true
+    },
+    {
+      "id": 150,
+      "nome": "Agua Branca",
+      "slug": "agua-branca",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 72,
+      "nome": "Alto da Boa Vista",
+      "slug": "alto-da-boa-vista",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 38,
+      "nome": "Alto do Ipiranga",
+      "slug": "alto-do-ipiranga",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 169,
+      "nome": "Amador Bueno",
+      "slug": "amador-bueno",
+      "municipio": "Itapevi",
+      "ativo": true
+    },
+    {
+      "id": 168,
+      "nome": "Ambuita",
+      "slug": "ambuita",
+      "municipio": "Itapevi",
+      "ativo": true
+    },
+    {
+      "id": 20,
+      "nome": "Ana Rosa",
+      "slug": "ana-rosa",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 5,
+      "nome": "Anhangabau",
+      "slug": "anhangabau",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 135,
+      "nome": "Antonio Gianetti Neto",
+      "slug": "antonio-gianetti-neto",
+      "municipio": "Ferraz de Vasconcelos",
+      "ativo": true
+    },
+    {
+      "id": 159,
+      "nome": "Antonio Joao",
+      "slug": "antonio-joao",
+      "municipio": "Barueri",
+      "ativo": true
+    },
+    {
+      "id": 195,
+      "nome": "Aracare",
+      "slug": "aracare",
+      "municipio": "Itaquaquecetuba",
+      "ativo": true
+    },
+    {
+      "id": 28,
+      "nome": "Armenia",
+      "slug": "armenia",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 48,
+      "nome": "Artur Alvim",
+      "slug": "artur-alvim",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 117,
+      "nome": "Autodromo",
+      "slug": "autodromo",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 95,
+      "nome": "Baltazar Fidelis",
+      "slug": "baltazar-fidelis",
+      "municipio": "Franco da Rocha",
+      "ativo": true
+    },
+    {
+      "id": 160,
+      "nome": "Barueri",
+      "slug": "barueri",
+      "municipio": "Barueri",
+      "ativo": true
+    },
+    {
+      "id": 54,
+      "nome": "Belem",
+      "slug": "belem",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 111,
+      "nome": "Berrini",
+      "slug": "berrini",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 73,
+      "nome": "Borba Gato",
+      "slug": "borba-gato",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 93,
+      "nome": "Botujuru",
+      "slug": "botujuru",
+      "municipio": "Campo Limpo Paulista",
+      "ativo": true
+    },
+    {
+      "id": 8,
+      "nome": "Bras",
+      "slug": "bras",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 141,
+      "nome": "Braz Cubas",
+      "slug": "braz-cubas",
+      "municipio": "Mogi das Cruzes",
+      "ativo": true
+    },
+    {
+      "id": 55,
+      "nome": "Bresser-Mooca",
+      "slug": "bresser-mooca",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 41,
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 74,
+      "nome": "Brooklin",
+      "slug": "brooklin",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 149,
+      "nome": "Bruno Covas - Mendes - Vila Natal",
+      "slug": "bruno-covas-mendes-vila-natal",
+      "municipio": "Guarulhos",
+      "ativo": true
+    },
+    {
+      "id": 62,
+      "nome": "Butanta",
+      "slug": "butanta",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 97,
+      "nome": "Caieiras",
+      "slug": "caieiras",
+      "municipio": "Caieiras",
+      "ativo": true
+    },
+    {
+      "id": 138,
+      "nome": "Calmon Viana",
+      "slug": "calmon-viana",
+      "municipio": "Poa",
+      "ativo": true
+    },
+    {
+      "id": 82,
+      "nome": "Camilo Haddad",
+      "slug": "camilo-haddad",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 75,
+      "nome": "Campo Belo",
+      "slug": "campo-belo",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 66,
+      "nome": "Campo Limpo",
+      "slug": "campo-limpo",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 92,
+      "nome": "Campo Limpo Paulista",
+      "slug": "campo-limpo-paulista",
+      "municipio": "Campo Limpo Paulista",
+      "ativo": true
+    },
+    {
+      "id": 65,
+      "nome": "Capao Redondo",
+      "slug": "capao-redondo",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 127,
+      "nome": "Capuava",
+      "slug": "capuava",
+      "municipio": "Maua",
+      "ativo": true
+    },
+    {
+      "id": 30,
+      "nome": "Carandiru",
+      "slug": "carandiru",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 157,
+      "nome": "Carapicuiba",
+      "slug": "carapicuiba",
+      "municipio": "Carapicuiba",
+      "ativo": true
+    },
+    {
+      "id": 53,
+      "nome": "Carrao",
+      "slug": "carrao",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 107,
+      "nome": "Ceasa",
+      "slug": "ceasa",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 40,
+      "nome": "Chacara Klabin",
+      "slug": "chacara-klabin",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 170,
+      "nome": "Cidade Jardim",
+      "slug": "cidade-jardim",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 109,
+      "nome": "Cidade Universitaria",
+      "slug": "cidade-universitaria",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 44,
+      "nome": "Clinicas",
+      "slug": "clinicas",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 154,
+      "nome": "Comandante Sampaio",
+      "slug": "comandante-sampaio",
+      "municipio": "Osasco",
+      "ativo": true
+    },
+    {
+      "id": 145,
+      "nome": "Comendador Ermelino",
+      "slug": "comendador-ermelino",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 14,
+      "nome": "Conceicao",
+      "slug": "conceicao",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 43,
+      "nome": "Consolacao",
+      "slug": "consolacao",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 47,
+      "nome": "Corinthians-Itaquera",
+      "slug": "corinthians-itaquera",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 132,
+      "nome": "Dom Bosco",
+      "slug": "dom-bosco",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 152,
+      "nome": "Domingos de Morais",
+      "slug": "domingos-de-morais",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 165,
+      "nome": "Engenheiro Cardoso",
+      "slug": "engenheiro-cardoso",
+      "municipio": "Itapevi",
+      "ativo": true
+    },
+    {
+      "id": 10,
+      "nome": "Engenheiro Goulart",
+      "slug": "engenheiro-goulart",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 197,
+      "nome": "Engenheiro Manoel Feio",
+      "slug": "engenheiro-manoel-feio",
+      "municipio": "Itaquaquecetuba",
+      "ativo": true
+    },
+    {
+      "id": 143,
+      "nome": "Estudantes",
+      "slug": "estudantes",
+      "municipio": "Mogi das Cruzes",
+      "ativo": true
+    },
+    {
+      "id": 76,
+      "nome": "Eucaliptos",
+      "slug": "eucaliptos",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 60,
+      "nome": "Faria Lima",
+      "slug": "faria-lima",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 87,
+      "nome": "Fazenda da Juta",
+      "slug": "fazenda-da-juta",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 136,
+      "nome": "Ferraz de Vasconcelos",
+      "slug": "ferraz-de-vasconcelos",
+      "municipio": "Ferraz de Vasconcelos",
+      "ativo": true
+    },
+    {
+      "id": 59,
+      "nome": "Fradique Coutinho",
+      "slug": "fradique-coutinho",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 94,
+      "nome": "Francisco Morato",
+      "slug": "francisco-morato",
+      "municipio": "Francisco Morato",
+      "ativo": true
+    },
+    {
+      "id": 96,
+      "nome": "Franco da Rocha",
+      "slug": "franco-da-rocha",
+      "municipio": "Franco da Rocha",
+      "ativo": true
+    },
+    {
+      "id": 156,
+      "nome": "General Miguel Costa",
+      "slug": "general-miguel-costa",
+      "municipio": "Carapicuiba",
+      "ativo": true
+    },
+    {
+      "id": 68,
+      "nome": "Giovanni Gronchi",
+      "slug": "giovanni-gronchi",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 119,
+      "nome": "Grajau",
+      "slug": "grajau",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 113,
+      "nome": "Granja Julieta",
+      "slug": "granja-julieta",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 134,
+      "nome": "Guaianases",
+      "slug": "guaianases",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 129,
+      "nome": "Guapituba",
+      "slug": "guapituba",
+      "municipio": "Maua",
+      "ativo": true
+    },
+    {
+      "id": 11,
+      "nome": "Guarulhos-Cecap",
+      "slug": "guarulhos-cecap",
+      "municipio": "Guarulhos",
+      "ativo": true
+    },
+    {
+      "id": 50,
+      "nome": "Guilhermina-Esperanca",
+      "slug": "guilhermina-esperanca",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 110,
+      "nome": "Hebraica-Reboucas",
+      "slug": "hebraica-reboucas",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 56,
+      "nome": "Higienopolis-Mackenzie",
+      "slug": "higienopolis-mackenzie",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 79,
+      "nome": "Hospital Sao Paulo",
+      "slug": "hospital-sao-paulo",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 153,
+      "nome": "Imperatriz Leopoldina",
+      "slug": "imperatriz-leopoldina",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 122,
+      "nome": "Ipiranga",
+      "slug": "ipiranga",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 148,
+      "nome": "Itaim Paulista",
+      "slug": "itaim-paulista",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 166,
+      "nome": "Itapevi",
+      "slug": "itapevi",
+      "municipio": "Itapevi",
+      "ativo": true
+    },
+    {
+      "id": 196,
+      "nome": "Itaquaquecetuba",
+      "slug": "itaquaquecetuba",
+      "municipio": "Itaquaquecetuba",
+      "ativo": true
+    },
+    {
+      "id": 13,
+      "nome": "Jabaquara",
+      "slug": "jabaquara",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 163,
+      "nome": "Jandira",
+      "slug": "jandira",
+      "municipio": "Jandira",
+      "ativo": true
+    },
+    {
+      "id": 100,
+      "nome": "Jaragua",
+      "slug": "jaragua",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 161,
+      "nome": "Jardim Belval",
+      "slug": "jardim-belval",
+      "municipio": "Barueri",
+      "ativo": true
+    },
+    {
+      "id": 89,
+      "nome": "Jardim Colonial",
+      "slug": "jardim-colonial",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 147,
+      "nome": "Jardim Helena-Vila Mara",
+      "slug": "jardim-helena-vila-mara",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 85,
+      "nome": "Jardim Planalto",
+      "slug": "jardim-planalto",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 198,
+      "nome": "Jardim Romano",
+      "slug": "jardim-romano",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 32,
+      "nome": "Jardim Sao Paulo-Ayrton Senna",
+      "slug": "jardim-sao-paulo-ayrton-senna",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 162,
+      "nome": "Jardim Silveira",
+      "slug": "jardim-silveira",
+      "municipio": "Barueri",
+      "ativo": true
+    },
+    {
+      "id": 114,
+      "nome": "Joao Dias",
+      "slug": "joao-dias",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 133,
+      "nome": "Jose Bonifacio",
+      "slug": "jose-bonifacio",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 151,
+      "nome": "Julio Prestes",
+      "slug": "julio-prestes",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 90,
+      "nome": "Jundiai",
+      "slug": "jundiai",
+      "municipio": "Jundiai",
+      "ativo": true
+    },
+    {
+      "id": 140,
+      "nome": "Jundiapeba",
+      "slug": "jundiapeba",
+      "municipio": "Mogi das Cruzes",
+      "ativo": true
+    },
+    {
+      "id": 116,
+      "nome": "Jurubatuba",
+      "slug": "jurubatuba",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 121,
+      "nome": "Juventus-Mooca",
+      "slug": "juventus-mooca",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 104,
+      "nome": "Lapa",
+      "slug": "lapa",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 70,
+      "nome": "Largo Treze",
+      "slug": "largo-treze",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 24,
+      "nome": "Liberdade",
+      "slug": "liberdade",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 26,
+      "nome": "Luz",
+      "slug": "luz",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Marechal Deodoro",
+      "slug": "marechal-deodoro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 128,
+      "nome": "Maua",
+      "slug": "maua",
+      "municipio": "Maua",
+      "ativo": true
+    },
+    {
+      "id": 120,
+      "nome": "Mendes-Vila Natal",
+      "slug": "mendes-vila-natal",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 77,
+      "nome": "Moema",
+      "slug": "moema",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 142,
+      "nome": "Mogi das Cruzes",
+      "slug": "mogi-das-cruzes",
+      "municipio": "Mogi das Cruzes",
+      "ativo": true
+    },
+    {
+      "id": 171,
+      "nome": "Morumbi",
+      "slug": "morumbi",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 80,
+      "nome": "Oratorio",
+      "slug": "oratorio",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 105,
+      "nome": "Osasco",
+      "slug": "osasco",
+      "municipio": "Osasco",
+      "ativo": true
+    },
+    {
+      "id": 58,
+      "nome": "Oscar Freire",
+      "slug": "oscar-freire",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 1,
+      "nome": "Palmeiras-Barra Funda",
+      "slug": "palmeiras-barra-funda",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 33,
+      "nome": "Parada Inglesa",
+      "slug": "parada-inglesa",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 21,
+      "nome": "Paraiso",
+      "slug": "paraiso",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 49,
+      "nome": "Patriarca-Vila Re",
+      "slug": "patriarca-vila-re",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 57,
+      "nome": "Paulista",
+      "slug": "paulista",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 7,
+      "nome": "Pedro II",
+      "slug": "pedro-ii",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 52,
+      "nome": "Penha",
+      "slug": "penha",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 98,
+      "nome": "Perus",
+      "slug": "perus",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 61,
+      "nome": "Pinheiros",
+      "slug": "pinheiros",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 103,
+      "nome": "Piqueri",
+      "slug": "piqueri",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 102,
+      "nome": "Pirituba",
+      "slug": "pirituba",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 137,
+      "nome": "Poa",
+      "slug": "poa",
+      "municipio": "Poa",
+      "ativo": true
+    },
+    {
+      "id": 29,
+      "nome": "Portuguesa-Tiete",
+      "slug": "portuguesa-tiete",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 17,
+      "nome": "Praca da Arvore",
+      "slug": "praca-da-arvore",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 125,
+      "nome": "Prefeito Saladino",
+      "slug": "prefeito-saladino",
+      "municipio": "Santo Andre",
+      "ativo": true
+    },
+    {
+      "id": 106,
+      "nome": "Presidente Altino",
+      "slug": "presidente-altino",
+      "municipio": "Osasco",
+      "ativo": true
+    },
+    {
+      "id": 118,
+      "nome": "Primavera-Interlagos",
+      "slug": "primavera-interlagos",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 155,
+      "nome": "Quitauna",
+      "slug": "quitauna",
+      "municipio": "Osasco",
+      "ativo": true
+    },
+    {
+      "id": 4,
+      "nome": "Republica",
+      "slug": "republica",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 130,
+      "nome": "Ribeirao Pires",
+      "slug": "ribeirao-pires",
+      "municipio": "Ribeirao Pires",
+      "ativo": true
+    },
+    {
+      "id": 131,
+      "nome": "Rio Grande da Serra",
+      "slug": "rio-grande-da-serra",
+      "municipio": "Rio Grande da Serra",
+      "ativo": true
+    },
+    {
+      "id": 37,
+      "nome": "Sacoma",
+      "slug": "sacoma",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 164,
+      "nome": "Sagrado Coracao",
+      "slug": "sagrado-coracao",
+      "municipio": "Jandira",
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "nome": "Santa Cecilia",
+      "slug": "santa-cecilia",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 18,
+      "nome": "Santa Cruz",
+      "slug": "santa-cruz",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 167,
+      "nome": "Santa Rita",
+      "slug": "santa-rita",
+      "municipio": "Itapevi",
+      "ativo": true
+    },
+    {
+      "id": 158,
+      "nome": "Santa Terezinha",
+      "slug": "santa-terezinha",
+      "municipio": "Carapicuiba",
+      "ativo": true
+    },
+    {
+      "id": 31,
+      "nome": "Santana",
+      "slug": "santana",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 69,
+      "nome": "Santo Amaro",
+      "slug": "santo-amaro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 126,
+      "nome": "Santo Andre",
+      "slug": "santo-andre",
+      "municipio": "Santo Andre",
+      "ativo": true
+    },
+    {
+      "id": 39,
+      "nome": "Santos-Imigrantes",
+      "slug": "santos-imigrantes",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 25,
+      "nome": "Sao Bento",
+      "slug": "sao-bento",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 123,
+      "nome": "Sao Caetano do Sul-Prefeito Walter Braido",
+      "slug": "sao-caetano-do-sul-prefeito-walter-braido",
+      "municipio": "Sao Caetano do Sul",
+      "ativo": true
+    },
+    {
+      "id": 23,
+      "nome": "Sao Joaquim",
+      "slug": "sao-joaquim",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 15,
+      "nome": "Sao Judas",
+      "slug": "sao-judas",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 81,
+      "nome": "Sao Lucas",
+      "slug": "sao-lucas",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 88,
+      "nome": "Sao Mateus",
+      "slug": "sao-mateus",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 146,
+      "nome": "Sao Miguel Paulista",
+      "slug": "sao-miguel-paulista",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 63,
+      "nome": "Sao Paulo-Morumbi",
+      "slug": "sao-paulo-morumbi",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 86,
+      "nome": "Sapopemba",
+      "slug": "sapopemba",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 16,
+      "nome": "Saude",
+      "slug": "saude",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 6,
+      "nome": "Se",
+      "slug": "se",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 115,
+      "nome": "Socorro",
+      "slug": "socorro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 45,
+      "nome": "Sumare",
+      "slug": "sumare",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 139,
+      "nome": "Suzano",
+      "slug": "suzano",
+      "municipio": "Suzano",
+      "ativo": true
+    },
+    {
+      "id": 36,
+      "nome": "Tamanduatei",
+      "slug": "tamanduatei",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 9,
+      "nome": "Tatuape",
+      "slug": "tatuape",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 27,
+      "nome": "Tiradentes",
+      "slug": "tiradentes",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 42,
+      "nome": "Trianon-Masp",
+      "slug": "trianon-masp",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 34,
+      "nome": "Tucuruvi",
+      "slug": "tucuruvi",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 144,
+      "nome": "USP Leste",
+      "slug": "usp-leste",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 124,
+      "nome": "Utinga",
+      "slug": "utinga",
+      "municipio": "Santo Andre",
+      "ativo": true
+    },
+    {
+      "id": 91,
+      "nome": "Varzea Paulista",
+      "slug": "varzea-paulista",
+      "municipio": "Varzea Paulista",
+      "ativo": true
+    },
+    {
+      "id": 22,
+      "nome": "Vergueiro",
+      "slug": "vergueiro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 99,
+      "nome": "Vila Aurora",
+      "slug": "vila-aurora",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 101,
+      "nome": "Vila Clarice",
+      "slug": "vila-clarice",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 67,
+      "nome": "Vila das Belezas",
+      "slug": "vila-das-belezas",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 46,
+      "nome": "Vila Madalena",
+      "slug": "vila-madalena",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 19,
+      "nome": "Vila Mariana",
+      "slug": "vila-mariana",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 51,
+      "nome": "Vila Matilde",
+      "slug": "vila-matilde",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 112,
+      "nome": "Vila Olimpia",
+      "slug": "vila-olimpia",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 35,
+      "nome": "Vila Prudente",
+      "slug": "vila-prudente",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 64,
+      "nome": "Vila Sonia",
+      "slug": "vila-sonia",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 83,
+      "nome": "Vila Tolstoi",
+      "slug": "vila-tolstoi",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 84,
+      "nome": "Vila Uniao",
+      "slug": "vila-uniao",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 108,
+      "nome": "Villa-Lobos-Jaguare",
+      "slug": "villa-lobos-jaguare",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    }
+  ],
+  "paradas_linha": [
+    {
+      "id": 17,
+      "linha_id": 1,
+      "estacao_id": 13,
+      "ordem": 1,
+      "nome_exibicao": "Jabaquara"
+    },
+    {
+      "id": 18,
+      "linha_id": 1,
+      "estacao_id": 14,
+      "ordem": 2,
+      "nome_exibicao": "Conceicao"
+    },
+    {
+      "id": 19,
+      "linha_id": 1,
+      "estacao_id": 15,
+      "ordem": 3,
+      "nome_exibicao": "Sao Judas"
+    },
+    {
+      "id": 20,
+      "linha_id": 1,
+      "estacao_id": 16,
+      "ordem": 4,
+      "nome_exibicao": "Saude"
+    },
+    {
+      "id": 21,
+      "linha_id": 1,
+      "estacao_id": 17,
+      "ordem": 5,
+      "nome_exibicao": "Praca da Arvore"
+    },
+    {
+      "id": 22,
+      "linha_id": 1,
+      "estacao_id": 18,
+      "ordem": 6,
+      "nome_exibicao": "Santa Cruz"
+    },
+    {
+      "id": 23,
+      "linha_id": 1,
+      "estacao_id": 19,
+      "ordem": 7,
+      "nome_exibicao": "Vila Mariana"
+    },
+    {
+      "id": 24,
+      "linha_id": 1,
+      "estacao_id": 20,
+      "ordem": 8,
+      "nome_exibicao": "Ana Rosa"
+    },
+    {
+      "id": 25,
+      "linha_id": 1,
+      "estacao_id": 21,
+      "ordem": 9,
+      "nome_exibicao": "Paraiso"
+    },
+    {
+      "id": 26,
+      "linha_id": 1,
+      "estacao_id": 22,
+      "ordem": 10,
+      "nome_exibicao": "Vergueiro"
+    },
+    {
+      "id": 27,
+      "linha_id": 1,
+      "estacao_id": 23,
+      "ordem": 11,
+      "nome_exibicao": "Sao Joaquim"
+    },
+    {
+      "id": 28,
+      "linha_id": 1,
+      "estacao_id": 24,
+      "ordem": 12,
+      "nome_exibicao": "Liberdade"
+    },
+    {
+      "id": 16,
+      "linha_id": 1,
+      "estacao_id": 6,
+      "ordem": 13,
+      "nome_exibicao": "Se"
+    },
+    {
+      "id": 29,
+      "linha_id": 1,
+      "estacao_id": 25,
+      "ordem": 14,
+      "nome_exibicao": "Sao Bento"
+    },
+    {
+      "id": 30,
+      "linha_id": 1,
+      "estacao_id": 26,
+      "ordem": 15,
+      "nome_exibicao": "Luz"
+    },
+    {
+      "id": 31,
+      "linha_id": 1,
+      "estacao_id": 27,
+      "ordem": 16,
+      "nome_exibicao": "Tiradentes"
+    },
+    {
+      "id": 32,
+      "linha_id": 1,
+      "estacao_id": 28,
+      "ordem": 17,
+      "nome_exibicao": "Armenia"
+    },
+    {
+      "id": 33,
+      "linha_id": 1,
+      "estacao_id": 29,
+      "ordem": 18,
+      "nome_exibicao": "Portuguesa-Tiete"
+    },
+    {
+      "id": 34,
+      "linha_id": 1,
+      "estacao_id": 30,
+      "ordem": 19,
+      "nome_exibicao": "Carandiru"
+    },
+    {
+      "id": 35,
+      "linha_id": 1,
+      "estacao_id": 31,
+      "ordem": 20,
+      "nome_exibicao": "Santana"
+    },
+    {
+      "id": 36,
+      "linha_id": 1,
+      "estacao_id": 32,
+      "ordem": 21,
+      "nome_exibicao": "Jardim Sao Paulo-Ayrton Senna"
+    },
+    {
+      "id": 37,
+      "linha_id": 1,
+      "estacao_id": 33,
+      "ordem": 22,
+      "nome_exibicao": "Parada Inglesa"
+    },
+    {
+      "id": 38,
+      "linha_id": 1,
+      "estacao_id": 34,
+      "ordem": 23,
+      "nome_exibicao": "Tucuruvi"
+    },
+    {
+      "id": 41,
+      "linha_id": 2,
+      "estacao_id": 35,
+      "ordem": 1,
+      "nome_exibicao": "Vila Prudente"
+    },
+    {
+      "id": 42,
+      "linha_id": 2,
+      "estacao_id": 36,
+      "ordem": 2,
+      "nome_exibicao": "Tamanduatei"
+    },
+    {
+      "id": 43,
+      "linha_id": 2,
+      "estacao_id": 37,
+      "ordem": 3,
+      "nome_exibicao": "Sacoma"
+    },
+    {
+      "id": 44,
+      "linha_id": 2,
+      "estacao_id": 38,
+      "ordem": 4,
+      "nome_exibicao": "Alto do Ipiranga"
+    },
+    {
+      "id": 45,
+      "linha_id": 2,
+      "estacao_id": 39,
+      "ordem": 5,
+      "nome_exibicao": "Santos-Imigrantes"
+    },
+    {
+      "id": 46,
+      "linha_id": 2,
+      "estacao_id": 40,
+      "ordem": 6,
+      "nome_exibicao": "Chacara Klabin"
+    },
+    {
+      "id": 39,
+      "linha_id": 2,
+      "estacao_id": 20,
+      "ordem": 7,
+      "nome_exibicao": "Ana Rosa"
+    },
+    {
+      "id": 40,
+      "linha_id": 2,
+      "estacao_id": 21,
+      "ordem": 8,
+      "nome_exibicao": "Paraiso"
+    },
+    {
+      "id": 47,
+      "linha_id": 2,
+      "estacao_id": 41,
+      "ordem": 9,
+      "nome_exibicao": "Brigadeiro"
+    },
+    {
+      "id": 48,
+      "linha_id": 2,
+      "estacao_id": 42,
+      "ordem": 10,
+      "nome_exibicao": "Trianon-Masp"
+    },
+    {
+      "id": 49,
+      "linha_id": 2,
+      "estacao_id": 43,
+      "ordem": 11,
+      "nome_exibicao": "Consolacao"
+    },
+    {
+      "id": 50,
+      "linha_id": 2,
+      "estacao_id": 44,
+      "ordem": 12,
+      "nome_exibicao": "Clinicas"
+    },
+    {
+      "id": 51,
+      "linha_id": 2,
+      "estacao_id": 45,
+      "ordem": 13,
+      "nome_exibicao": "Sumare"
+    },
+    {
+      "id": 52,
+      "linha_id": 2,
+      "estacao_id": 46,
+      "ordem": 14,
+      "nome_exibicao": "Vila Madalena"
+    },
+    {
+      "id": 1,
+      "linha_id": 3,
+      "estacao_id": 1,
+      "ordem": 1,
+      "nome_exibicao": "Palmeiras-Barra Funda"
+    },
+    {
+      "id": 2,
+      "linha_id": 3,
+      "estacao_id": 2,
+      "ordem": 2,
+      "nome_exibicao": "Marechal Deodoro"
+    },
+    {
+      "id": 3,
+      "linha_id": 3,
+      "estacao_id": 3,
+      "ordem": 3,
+      "nome_exibicao": "Santa Cecilia"
+    },
+    {
+      "id": 4,
+      "linha_id": 3,
+      "estacao_id": 4,
+      "ordem": 4,
+      "nome_exibicao": "Republica"
+    },
+    {
+      "id": 5,
+      "linha_id": 3,
+      "estacao_id": 5,
+      "ordem": 5,
+      "nome_exibicao": "Anhangabau"
+    },
+    {
+      "id": 6,
+      "linha_id": 3,
+      "estacao_id": 6,
+      "ordem": 6,
+      "nome_exibicao": "Se"
+    },
+    {
+      "id": 7,
+      "linha_id": 3,
+      "estacao_id": 7,
+      "ordem": 7,
+      "nome_exibicao": "Pedro II"
+    },
+    {
+      "id": 8,
+      "linha_id": 3,
+      "estacao_id": 8,
+      "ordem": 8,
+      "nome_exibicao": "Bras"
+    },
+    {
+      "id": 70,
+      "linha_id": 3,
+      "estacao_id": 55,
+      "ordem": 9,
+      "nome_exibicao": "Bresser-Mooca"
+    },
+    {
+      "id": 69,
+      "linha_id": 3,
+      "estacao_id": 54,
+      "ordem": 10,
+      "nome_exibicao": "Belem"
+    },
+    {
+      "id": 9,
+      "linha_id": 3,
+      "estacao_id": 9,
+      "ordem": 11,
+      "nome_exibicao": "Tatuape"
+    },
+    {
+      "id": 68,
+      "linha_id": 3,
+      "estacao_id": 53,
+      "ordem": 12,
+      "nome_exibicao": "Carrao"
+    },
+    {
+      "id": 67,
+      "linha_id": 3,
+      "estacao_id": 52,
+      "ordem": 13,
+      "nome_exibicao": "Penha"
+    },
+    {
+      "id": 66,
+      "linha_id": 3,
+      "estacao_id": 51,
+      "ordem": 14,
+      "nome_exibicao": "Vila Matilde"
+    },
+    {
+      "id": 65,
+      "linha_id": 3,
+      "estacao_id": 50,
+      "ordem": 15,
+      "nome_exibicao": "Guilhermina-Esperanca"
+    },
+    {
+      "id": 64,
+      "linha_id": 3,
+      "estacao_id": 49,
+      "ordem": 16,
+      "nome_exibicao": "Patriarca-Vila Re"
+    },
+    {
+      "id": 63,
+      "linha_id": 3,
+      "estacao_id": 48,
+      "ordem": 17,
+      "nome_exibicao": "Artur Alvim"
+    },
+    {
+      "id": 62,
+      "linha_id": 3,
+      "estacao_id": 47,
+      "ordem": 18,
+      "nome_exibicao": "Corinthians-Itaquera"
+    },
+    {
+      "id": 72,
+      "linha_id": 4,
+      "estacao_id": 26,
+      "ordem": 1,
+      "nome_exibicao": "Luz"
+    },
+    {
+      "id": 71,
+      "linha_id": 4,
+      "estacao_id": 4,
+      "ordem": 2,
+      "nome_exibicao": "Republica"
+    },
+    {
+      "id": 73,
+      "linha_id": 4,
+      "estacao_id": 56,
+      "ordem": 3,
+      "nome_exibicao": "Higienopolis-Mackenzie"
+    },
+    {
+      "id": 74,
+      "linha_id": 4,
+      "estacao_id": 57,
+      "ordem": 4,
+      "nome_exibicao": "Paulista"
+    },
+    {
+      "id": 75,
+      "linha_id": 4,
+      "estacao_id": 58,
+      "ordem": 5,
+      "nome_exibicao": "Oscar Freire"
+    },
+    {
+      "id": 76,
+      "linha_id": 4,
+      "estacao_id": 59,
+      "ordem": 6,
+      "nome_exibicao": "Fradique Coutinho"
+    },
+    {
+      "id": 77,
+      "linha_id": 4,
+      "estacao_id": 60,
+      "ordem": 7,
+      "nome_exibicao": "Faria Lima"
+    },
+    {
+      "id": 78,
+      "linha_id": 4,
+      "estacao_id": 61,
+      "ordem": 8,
+      "nome_exibicao": "Pinheiros"
+    },
+    {
+      "id": 79,
+      "linha_id": 4,
+      "estacao_id": 62,
+      "ordem": 9,
+      "nome_exibicao": "Butanta"
+    },
+    {
+      "id": 80,
+      "linha_id": 4,
+      "estacao_id": 63,
+      "ordem": 10,
+      "nome_exibicao": "Sao Paulo-Morumbi"
+    },
+    {
+      "id": 81,
+      "linha_id": 4,
+      "estacao_id": 64,
+      "ordem": 11,
+      "nome_exibicao": "Vila Sonia"
+    },
+    {
+      "id": 84,
+      "linha_id": 5,
+      "estacao_id": 65,
+      "ordem": 1,
+      "nome_exibicao": "Capao Redondo"
+    },
+    {
+      "id": 85,
+      "linha_id": 5,
+      "estacao_id": 66,
+      "ordem": 2,
+      "nome_exibicao": "Campo Limpo"
+    },
+    {
+      "id": 86,
+      "linha_id": 5,
+      "estacao_id": 67,
+      "ordem": 3,
+      "nome_exibicao": "Vila das Belezas"
+    },
+    {
+      "id": 87,
+      "linha_id": 5,
+      "estacao_id": 68,
+      "ordem": 4,
+      "nome_exibicao": "Giovanni Gronchi"
+    },
+    {
+      "id": 88,
+      "linha_id": 5,
+      "estacao_id": 69,
+      "ordem": 5,
+      "nome_exibicao": "Santo Amaro"
+    },
+    {
+      "id": 89,
+      "linha_id": 5,
+      "estacao_id": 70,
+      "ordem": 6,
+      "nome_exibicao": "Largo Treze"
+    },
+    {
+      "id": 90,
+      "linha_id": 5,
+      "estacao_id": 71,
+      "ordem": 7,
+      "nome_exibicao": "Adolfo Pinheiro"
+    },
+    {
+      "id": 91,
+      "linha_id": 5,
+      "estacao_id": 72,
+      "ordem": 8,
+      "nome_exibicao": "Alto da Boa Vista"
+    },
+    {
+      "id": 92,
+      "linha_id": 5,
+      "estacao_id": 73,
+      "ordem": 9,
+      "nome_exibicao": "Borba Gato"
+    },
+    {
+      "id": 93,
+      "linha_id": 5,
+      "estacao_id": 74,
+      "ordem": 10,
+      "nome_exibicao": "Brooklin"
+    },
+    {
+      "id": 94,
+      "linha_id": 5,
+      "estacao_id": 75,
+      "ordem": 11,
+      "nome_exibicao": "Campo Belo"
+    },
+    {
+      "id": 95,
+      "linha_id": 5,
+      "estacao_id": 76,
+      "ordem": 12,
+      "nome_exibicao": "Eucaliptos"
+    },
+    {
+      "id": 96,
+      "linha_id": 5,
+      "estacao_id": 77,
+      "ordem": 13,
+      "nome_exibicao": "Moema"
+    },
+    {
+      "id": 97,
+      "linha_id": 5,
+      "estacao_id": 78,
+      "ordem": 14,
+      "nome_exibicao": "AACD-Servidor"
+    },
+    {
+      "id": 98,
+      "linha_id": 5,
+      "estacao_id": 79,
+      "ordem": 15,
+      "nome_exibicao": "Hospital Sao Paulo"
+    },
+    {
+      "id": 82,
+      "linha_id": 5,
+      "estacao_id": 18,
+      "ordem": 16,
+      "nome_exibicao": "Santa Cruz"
+    },
+    {
+      "id": 83,
+      "linha_id": 5,
+      "estacao_id": 40,
+      "ordem": 17,
+      "nome_exibicao": "Chacara Klabin"
+    },
+    {
+      "id": 160,
+      "linha_id": 6,
+      "estacao_id": 1,
+      "ordem": 1,
+      "nome_exibicao": "Palmeiras-Barra Funda"
+    },
+    {
+      "id": 176,
+      "linha_id": 6,
+      "estacao_id": 150,
+      "ordem": 2,
+      "nome_exibicao": "Agua Branca"
+    },
+    {
+      "id": 175,
+      "linha_id": 6,
+      "estacao_id": 104,
+      "ordem": 3,
+      "nome_exibicao": "Lapa"
+    },
+    {
+      "id": 174,
+      "linha_id": 6,
+      "estacao_id": 103,
+      "ordem": 4,
+      "nome_exibicao": "Piqueri"
+    },
+    {
+      "id": 173,
+      "linha_id": 6,
+      "estacao_id": 102,
+      "ordem": 5,
+      "nome_exibicao": "Pirituba"
+    },
+    {
+      "id": 172,
+      "linha_id": 6,
+      "estacao_id": 101,
+      "ordem": 6,
+      "nome_exibicao": "Vila Clarice"
+    },
+    {
+      "id": 171,
+      "linha_id": 6,
+      "estacao_id": 100,
+      "ordem": 7,
+      "nome_exibicao": "Jaragua"
+    },
+    {
+      "id": 170,
+      "linha_id": 6,
+      "estacao_id": 99,
+      "ordem": 8,
+      "nome_exibicao": "Vila Aurora"
+    },
+    {
+      "id": 169,
+      "linha_id": 6,
+      "estacao_id": 98,
+      "ordem": 9,
+      "nome_exibicao": "Perus"
+    },
+    {
+      "id": 168,
+      "linha_id": 6,
+      "estacao_id": 97,
+      "ordem": 10,
+      "nome_exibicao": "Caieiras"
+    },
+    {
+      "id": 167,
+      "linha_id": 6,
+      "estacao_id": 96,
+      "ordem": 11,
+      "nome_exibicao": "Franco da Rocha"
+    },
+    {
+      "id": 166,
+      "linha_id": 6,
+      "estacao_id": 95,
+      "ordem": 12,
+      "nome_exibicao": "Baltazar Fidelis"
+    },
+    {
+      "id": 165,
+      "linha_id": 6,
+      "estacao_id": 94,
+      "ordem": 13,
+      "nome_exibicao": "Francisco Morato"
+    },
+    {
+      "id": 164,
+      "linha_id": 6,
+      "estacao_id": 93,
+      "ordem": 14,
+      "nome_exibicao": "Botujuru"
+    },
+    {
+      "id": 163,
+      "linha_id": 6,
+      "estacao_id": 92,
+      "ordem": 15,
+      "nome_exibicao": "Campo Limpo Paulista"
+    },
+    {
+      "id": 162,
+      "linha_id": 6,
+      "estacao_id": 91,
+      "ordem": 16,
+      "nome_exibicao": "Varzea Paulista"
+    },
+    {
+      "id": 161,
+      "linha_id": 6,
+      "estacao_id": 90,
+      "ordem": 17,
+      "nome_exibicao": "Jundiai"
+    },
+    {
+      "id": 121,
+      "linha_id": 7,
+      "estacao_id": 151,
+      "ordem": 1,
+      "nome_exibicao": "Julio Prestes"
+    },
+    {
+      "id": 117,
+      "linha_id": 7,
+      "estacao_id": 1,
+      "ordem": 2,
+      "nome_exibicao": "Barra Funda"
+    },
+    {
+      "id": 118,
+      "linha_id": 7,
+      "estacao_id": 104,
+      "ordem": 3,
+      "nome_exibicao": "Lapa"
+    },
+    {
+      "id": 122,
+      "linha_id": 7,
+      "estacao_id": 152,
+      "ordem": 4,
+      "nome_exibicao": "Domingos de Morais"
+    },
+    {
+      "id": 123,
+      "linha_id": 7,
+      "estacao_id": 153,
+      "ordem": 5,
+      "nome_exibicao": "Imperatriz Leopoldina"
+    },
+    {
+      "id": 120,
+      "linha_id": 7,
+      "estacao_id": 106,
+      "ordem": 6,
+      "nome_exibicao": "Presidente Altino"
+    },
+    {
+      "id": 119,
+      "linha_id": 7,
+      "estacao_id": 105,
+      "ordem": 7,
+      "nome_exibicao": "Osasco"
+    },
+    {
+      "id": 124,
+      "linha_id": 7,
+      "estacao_id": 154,
+      "ordem": 8,
+      "nome_exibicao": "Comandante Sampaio"
+    },
+    {
+      "id": 125,
+      "linha_id": 7,
+      "estacao_id": 155,
+      "ordem": 9,
+      "nome_exibicao": "Quitauna"
+    },
+    {
+      "id": 126,
+      "linha_id": 7,
+      "estacao_id": 156,
+      "ordem": 10,
+      "nome_exibicao": "General Miguel Costa"
+    },
+    {
+      "id": 127,
+      "linha_id": 7,
+      "estacao_id": 157,
+      "ordem": 11,
+      "nome_exibicao": "Carapicuiba"
+    },
+    {
+      "id": 128,
+      "linha_id": 7,
+      "estacao_id": 158,
+      "ordem": 12,
+      "nome_exibicao": "Santa Terezinha"
+    },
+    {
+      "id": 129,
+      "linha_id": 7,
+      "estacao_id": 159,
+      "ordem": 13,
+      "nome_exibicao": "Antonio Joao"
+    },
+    {
+      "id": 130,
+      "linha_id": 7,
+      "estacao_id": 160,
+      "ordem": 14,
+      "nome_exibicao": "Barueri"
+    },
+    {
+      "id": 131,
+      "linha_id": 7,
+      "estacao_id": 161,
+      "ordem": 15,
+      "nome_exibicao": "Jardim Belval"
+    },
+    {
+      "id": 132,
+      "linha_id": 7,
+      "estacao_id": 162,
+      "ordem": 16,
+      "nome_exibicao": "Jardim Silveira"
+    },
+    {
+      "id": 133,
+      "linha_id": 7,
+      "estacao_id": 163,
+      "ordem": 17,
+      "nome_exibicao": "Jandira"
+    },
+    {
+      "id": 134,
+      "linha_id": 7,
+      "estacao_id": 164,
+      "ordem": 18,
+      "nome_exibicao": "Sagrado Coracao"
+    },
+    {
+      "id": 135,
+      "linha_id": 7,
+      "estacao_id": 165,
+      "ordem": 19,
+      "nome_exibicao": "Engenheiro Cardoso"
+    },
+    {
+      "id": 136,
+      "linha_id": 7,
+      "estacao_id": 166,
+      "ordem": 20,
+      "nome_exibicao": "Itapevi"
+    },
+    {
+      "id": 137,
+      "linha_id": 7,
+      "estacao_id": 167,
+      "ordem": 21,
+      "nome_exibicao": "Santa Rita"
+    },
+    {
+      "id": 138,
+      "linha_id": 7,
+      "estacao_id": 168,
+      "ordem": 22,
+      "nome_exibicao": "Ambuita"
+    },
+    {
+      "id": 139,
+      "linha_id": 7,
+      "estacao_id": 169,
+      "ordem": 23,
+      "nome_exibicao": "Amador Bueno"
+    },
+    {
+      "id": 142,
+      "linha_id": 8,
+      "estacao_id": 105,
+      "ordem": 1,
+      "nome_exibicao": "Osasco"
+    },
+    {
+      "id": 143,
+      "linha_id": 8,
+      "estacao_id": 106,
+      "ordem": 2,
+      "nome_exibicao": "Presidente Altino"
+    },
+    {
+      "id": 144,
+      "linha_id": 8,
+      "estacao_id": 107,
+      "ordem": 3,
+      "nome_exibicao": "Ceasa"
+    },
+    {
+      "id": 145,
+      "linha_id": 8,
+      "estacao_id": 108,
+      "ordem": 4,
+      "nome_exibicao": "Villa-Lobos-Jaguare"
+    },
+    {
+      "id": 146,
+      "linha_id": 8,
+      "estacao_id": 109,
+      "ordem": 5,
+      "nome_exibicao": "Cidade Universitaria"
+    },
+    {
+      "id": 140,
+      "linha_id": 8,
+      "estacao_id": 61,
+      "ordem": 6,
+      "nome_exibicao": "Pinheiros"
+    },
+    {
+      "id": 147,
+      "linha_id": 8,
+      "estacao_id": 110,
+      "ordem": 7,
+      "nome_exibicao": "Hebraica-Reboucas"
+    },
+    {
+      "id": 158,
+      "linha_id": 8,
+      "estacao_id": 170,
+      "ordem": 8,
+      "nome_exibicao": "Cidade Jardim"
+    },
+    {
+      "id": 149,
+      "linha_id": 8,
+      "estacao_id": 112,
+      "ordem": 9,
+      "nome_exibicao": "Vila Olimpia"
+    },
+    {
+      "id": 148,
+      "linha_id": 8,
+      "estacao_id": 111,
+      "ordem": 10,
+      "nome_exibicao": "Berrini"
+    },
+    {
+      "id": 159,
+      "linha_id": 8,
+      "estacao_id": 171,
+      "ordem": 11,
+      "nome_exibicao": "Morumbi"
+    },
+    {
+      "id": 150,
+      "linha_id": 8,
+      "estacao_id": 113,
+      "ordem": 12,
+      "nome_exibicao": "Granja Julieta"
+    },
+    {
+      "id": 151,
+      "linha_id": 8,
+      "estacao_id": 114,
+      "ordem": 13,
+      "nome_exibicao": "Joao Dias"
+    },
+    {
+      "id": 141,
+      "linha_id": 8,
+      "estacao_id": 69,
+      "ordem": 14,
+      "nome_exibicao": "Santo Amaro"
+    },
+    {
+      "id": 152,
+      "linha_id": 8,
+      "estacao_id": 115,
+      "ordem": 15,
+      "nome_exibicao": "Socorro"
+    },
+    {
+      "id": 153,
+      "linha_id": 8,
+      "estacao_id": 116,
+      "ordem": 16,
+      "nome_exibicao": "Jurubatuba"
+    },
+    {
+      "id": 154,
+      "linha_id": 8,
+      "estacao_id": 117,
+      "ordem": 17,
+      "nome_exibicao": "Autodromo"
+    },
+    {
+      "id": 155,
+      "linha_id": 8,
+      "estacao_id": 118,
+      "ordem": 18,
+      "nome_exibicao": "Primavera-Interlagos"
+    },
+    {
+      "id": 156,
+      "linha_id": 8,
+      "estacao_id": 119,
+      "ordem": 19,
+      "nome_exibicao": "Grajau"
+    },
+    {
+      "id": 157,
+      "linha_id": 8,
+      "estacao_id": 149,
+      "ordem": 20,
+      "nome_exibicao": "Bruno Covas - Mendes - Vila Natal"
+    },
+    {
+      "id": 177,
+      "linha_id": 9,
+      "estacao_id": 1,
+      "ordem": 1,
+      "nome_exibicao": "Palmeiras-Barra Funda"
+    },
+    {
+      "id": 178,
+      "linha_id": 9,
+      "estacao_id": 8,
+      "ordem": 2,
+      "nome_exibicao": "Bras"
+    },
+    {
+      "id": 180,
+      "linha_id": 9,
+      "estacao_id": 121,
+      "ordem": 3,
+      "nome_exibicao": "Juventus-Mooca"
+    },
+    {
+      "id": 181,
+      "linha_id": 9,
+      "estacao_id": 122,
+      "ordem": 4,
+      "nome_exibicao": "Ipiranga"
+    },
+    {
+      "id": 179,
+      "linha_id": 9,
+      "estacao_id": 36,
+      "ordem": 5,
+      "nome_exibicao": "Tamanduatei"
+    },
+    {
+      "id": 182,
+      "linha_id": 9,
+      "estacao_id": 123,
+      "ordem": 6,
+      "nome_exibicao": "Sao Caetano do Sul-Prefeito Walter Braido"
+    },
+    {
+      "id": 183,
+      "linha_id": 9,
+      "estacao_id": 124,
+      "ordem": 7,
+      "nome_exibicao": "Utinga"
+    },
+    {
+      "id": 184,
+      "linha_id": 9,
+      "estacao_id": 125,
+      "ordem": 8,
+      "nome_exibicao": "Prefeito Saladino"
+    },
+    {
+      "id": 185,
+      "linha_id": 9,
+      "estacao_id": 126,
+      "ordem": 9,
+      "nome_exibicao": "Santo Andre"
+    },
+    {
+      "id": 186,
+      "linha_id": 9,
+      "estacao_id": 127,
+      "ordem": 10,
+      "nome_exibicao": "Capuava"
+    },
+    {
+      "id": 187,
+      "linha_id": 9,
+      "estacao_id": 128,
+      "ordem": 11,
+      "nome_exibicao": "Maua"
+    },
+    {
+      "id": 188,
+      "linha_id": 9,
+      "estacao_id": 129,
+      "ordem": 12,
+      "nome_exibicao": "Guapituba"
+    },
+    {
+      "id": 189,
+      "linha_id": 9,
+      "estacao_id": 130,
+      "ordem": 13,
+      "nome_exibicao": "Ribeirao Pires"
+    },
+    {
+      "id": 190,
+      "linha_id": 9,
+      "estacao_id": 131,
+      "ordem": 14,
+      "nome_exibicao": "Rio Grande da Serra"
+    },
+    {
+      "id": 193,
+      "linha_id": 10,
+      "estacao_id": 26,
+      "ordem": 1,
+      "nome_exibicao": "Luz"
+    },
+    {
+      "id": 191,
+      "linha_id": 10,
+      "estacao_id": 8,
+      "ordem": 2,
+      "nome_exibicao": "Bras"
+    },
+    {
+      "id": 192,
+      "linha_id": 10,
+      "estacao_id": 9,
+      "ordem": 3,
+      "nome_exibicao": "Tatuape"
+    },
+    {
+      "id": 194,
+      "linha_id": 10,
+      "estacao_id": 47,
+      "ordem": 4,
+      "nome_exibicao": "Corinthians-Itaquera"
+    },
+    {
+      "id": 195,
+      "linha_id": 10,
+      "estacao_id": 132,
+      "ordem": 5,
+      "nome_exibicao": "Dom Bosco"
+    },
+    {
+      "id": 196,
+      "linha_id": 10,
+      "estacao_id": 133,
+      "ordem": 6,
+      "nome_exibicao": "Jose Bonifacio"
+    },
+    {
+      "id": 197,
+      "linha_id": 10,
+      "estacao_id": 134,
+      "ordem": 7,
+      "nome_exibicao": "Guaianases"
+    },
+    {
+      "id": 198,
+      "linha_id": 10,
+      "estacao_id": 135,
+      "ordem": 8,
+      "nome_exibicao": "Antonio Gianetti Neto"
+    },
+    {
+      "id": 199,
+      "linha_id": 10,
+      "estacao_id": 136,
+      "ordem": 9,
+      "nome_exibicao": "Ferraz de Vasconcelos"
+    },
+    {
+      "id": 200,
+      "linha_id": 10,
+      "estacao_id": 137,
+      "ordem": 10,
+      "nome_exibicao": "Poa"
+    },
+    {
+      "id": 206,
+      "linha_id": 10,
+      "estacao_id": 138,
+      "ordem": 11,
+      "nome_exibicao": "Calmon Viana"
+    },
+    {
+      "id": 201,
+      "linha_id": 10,
+      "estacao_id": 139,
+      "ordem": 12,
+      "nome_exibicao": "Suzano"
+    },
+    {
+      "id": 202,
+      "linha_id": 10,
+      "estacao_id": 140,
+      "ordem": 13,
+      "nome_exibicao": "Jundiapeba"
+    },
+    {
+      "id": 203,
+      "linha_id": 10,
+      "estacao_id": 141,
+      "ordem": 14,
+      "nome_exibicao": "Braz Cubas"
+    },
+    {
+      "id": 204,
+      "linha_id": 10,
+      "estacao_id": 142,
+      "ordem": 15,
+      "nome_exibicao": "Mogi das Cruzes"
+    },
+    {
+      "id": 205,
+      "linha_id": 10,
+      "estacao_id": 143,
+      "ordem": 16,
+      "nome_exibicao": "Estudantes"
+    },
+    {
+      "id": 10,
+      "linha_id": 11,
+      "estacao_id": 8,
+      "ordem": 1,
+      "nome_exibicao": "Bras"
+    },
+    {
+      "id": 11,
+      "linha_id": 11,
+      "estacao_id": 9,
+      "ordem": 2,
+      "nome_exibicao": "Tatuape"
+    },
+    {
+      "id": 12,
+      "linha_id": 11,
+      "estacao_id": 10,
+      "ordem": 3,
+      "nome_exibicao": "Engenheiro Goulart"
+    },
+    {
+      "id": 210,
+      "linha_id": 11,
+      "estacao_id": 144,
+      "ordem": 4,
+      "nome_exibicao": "USP Leste"
+    },
+    {
+      "id": 211,
+      "linha_id": 11,
+      "estacao_id": 145,
+      "ordem": 5,
+      "nome_exibicao": "Comendador Ermelino"
+    },
+    {
+      "id": 212,
+      "linha_id": 11,
+      "estacao_id": 146,
+      "ordem": 6,
+      "nome_exibicao": "Sao Miguel Paulista"
+    },
+    {
+      "id": 213,
+      "linha_id": 11,
+      "estacao_id": 147,
+      "ordem": 7,
+      "nome_exibicao": "Jardim Helena-Vila Mara"
+    },
+    {
+      "id": 214,
+      "linha_id": 11,
+      "estacao_id": 148,
+      "ordem": 8,
+      "nome_exibicao": "Itaim Paulista"
+    },
+    {
+      "id": 219,
+      "linha_id": 11,
+      "estacao_id": 198,
+      "ordem": 9,
+      "nome_exibicao": "Jardim Romano"
+    },
+    {
+      "id": 218,
+      "linha_id": 11,
+      "estacao_id": 197,
+      "ordem": 10,
+      "nome_exibicao": "Engenheiro Manoel Feio"
+    },
+    {
+      "id": 217,
+      "linha_id": 11,
+      "estacao_id": 196,
+      "ordem": 11,
+      "nome_exibicao": "Itaquaquecetuba"
+    },
+    {
+      "id": 216,
+      "linha_id": 11,
+      "estacao_id": 195,
+      "ordem": 12,
+      "nome_exibicao": "Aracare"
+    },
+    {
+      "id": 215,
+      "linha_id": 11,
+      "estacao_id": 138,
+      "ordem": 13,
+      "nome_exibicao": "Calmon Viana"
+    },
+    {
+      "id": 13,
+      "linha_id": 12,
+      "estacao_id": 10,
+      "ordem": 1,
+      "nome_exibicao": "Engenheiro Goulart"
+    },
+    {
+      "id": 14,
+      "linha_id": 12,
+      "estacao_id": 11,
+      "ordem": 2,
+      "nome_exibicao": "Guarulhos-Cecap"
+    },
+    {
+      "id": 15,
+      "linha_id": 12,
+      "estacao_id": 12,
+      "ordem": 3,
+      "nome_exibicao": "Aeroporto-Guarulhos"
+    },
+    {
+      "id": 223,
+      "linha_id": 13,
+      "estacao_id": 35,
+      "ordem": 1,
+      "nome_exibicao": "Vila Prudente"
+    },
+    {
+      "id": 224,
+      "linha_id": 13,
+      "estacao_id": 80,
+      "ordem": 2,
+      "nome_exibicao": "Oratorio"
+    },
+    {
+      "id": 225,
+      "linha_id": 13,
+      "estacao_id": 81,
+      "ordem": 3,
+      "nome_exibicao": "Sao Lucas"
+    },
+    {
+      "id": 226,
+      "linha_id": 13,
+      "estacao_id": 82,
+      "ordem": 4,
+      "nome_exibicao": "Camilo Haddad"
+    },
+    {
+      "id": 227,
+      "linha_id": 13,
+      "estacao_id": 83,
+      "ordem": 5,
+      "nome_exibicao": "Vila Tolstoi"
+    },
+    {
+      "id": 228,
+      "linha_id": 13,
+      "estacao_id": 84,
+      "ordem": 6,
+      "nome_exibicao": "Vila Uniao"
+    },
+    {
+      "id": 229,
+      "linha_id": 13,
+      "estacao_id": 85,
+      "ordem": 7,
+      "nome_exibicao": "Jardim Planalto"
+    },
+    {
+      "id": 230,
+      "linha_id": 13,
+      "estacao_id": 86,
+      "ordem": 8,
+      "nome_exibicao": "Sapopemba"
+    },
+    {
+      "id": 231,
+      "linha_id": 13,
+      "estacao_id": 87,
+      "ordem": 9,
+      "nome_exibicao": "Fazenda da Juta"
+    },
+    {
+      "id": 232,
+      "linha_id": 13,
+      "estacao_id": 88,
+      "ordem": 10,
+      "nome_exibicao": "Sao Mateus"
+    },
+    {
+      "id": 233,
+      "linha_id": 13,
+      "estacao_id": 89,
+      "ordem": 11,
+      "nome_exibicao": "Jardim Colonial"
+    }
+  ],
+  "trechos_linha": [
+    {
+      "linha_id": 3,
+      "parada_origem_id": 8,
+      "parada_destino_id": 9,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 2,
+      "parada_destino_id": 1,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 3,
+      "parada_destino_id": 2,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 4,
+      "parada_destino_id": 3,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 5,
+      "parada_destino_id": 4,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 6,
+      "parada_destino_id": 5,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 7,
+      "parada_destino_id": 6,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 8,
+      "parada_destino_id": 7,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 9,
+      "parada_destino_id": 8,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 11,
+      "parada_destino_id": 10,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 12,
+      "parada_destino_id": 11,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 12,
+      "parada_origem_id": 14,
+      "parada_destino_id": 13,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 12,
+      "parada_origem_id": 15,
+      "parada_destino_id": 14,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 16,
+      "parada_destino_id": 29,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 17,
+      "parada_destino_id": 18,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 18,
+      "parada_destino_id": 19,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 19,
+      "parada_destino_id": 20,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 20,
+      "parada_destino_id": 21,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 21,
+      "parada_destino_id": 22,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 22,
+      "parada_destino_id": 23,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 23,
+      "parada_destino_id": 24,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 24,
+      "parada_destino_id": 25,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 25,
+      "parada_destino_id": 26,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 26,
+      "parada_destino_id": 27,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 27,
+      "parada_destino_id": 28,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 28,
+      "parada_destino_id": 16,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 29,
+      "parada_destino_id": 30,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 30,
+      "parada_destino_id": 31,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 31,
+      "parada_destino_id": 32,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 32,
+      "parada_destino_id": 33,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 33,
+      "parada_destino_id": 34,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 34,
+      "parada_destino_id": 35,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 35,
+      "parada_destino_id": 36,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 36,
+      "parada_destino_id": 37,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 37,
+      "parada_destino_id": 38,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 39,
+      "parada_destino_id": 40,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 40,
+      "parada_destino_id": 47,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 41,
+      "parada_destino_id": 42,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 42,
+      "parada_destino_id": 43,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 43,
+      "parada_destino_id": 44,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 44,
+      "parada_destino_id": 45,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 45,
+      "parada_destino_id": 46,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 46,
+      "parada_destino_id": 39,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 47,
+      "parada_destino_id": 48,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 48,
+      "parada_destino_id": 49,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 49,
+      "parada_destino_id": 50,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 50,
+      "parada_destino_id": 51,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 51,
+      "parada_destino_id": 52,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 1,
+      "parada_destino_id": 2,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 2,
+      "parada_destino_id": 3,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 3,
+      "parada_destino_id": 4,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 4,
+      "parada_destino_id": 5,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 5,
+      "parada_destino_id": 6,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 6,
+      "parada_destino_id": 7,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 7,
+      "parada_destino_id": 8,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 8,
+      "parada_destino_id": 70,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 9,
+      "parada_destino_id": 68,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 63,
+      "parada_destino_id": 62,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 64,
+      "parada_destino_id": 63,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 65,
+      "parada_destino_id": 64,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 66,
+      "parada_destino_id": 65,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 67,
+      "parada_destino_id": 66,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 68,
+      "parada_destino_id": 67,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 69,
+      "parada_destino_id": 9,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 70,
+      "parada_destino_id": 69,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 71,
+      "parada_destino_id": 73,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 72,
+      "parada_destino_id": 71,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 73,
+      "parada_destino_id": 74,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 74,
+      "parada_destino_id": 75,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 75,
+      "parada_destino_id": 76,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 76,
+      "parada_destino_id": 77,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 77,
+      "parada_destino_id": 78,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 78,
+      "parada_destino_id": 79,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 79,
+      "parada_destino_id": 80,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 80,
+      "parada_destino_id": 81,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 82,
+      "parada_destino_id": 83,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 84,
+      "parada_destino_id": 85,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 85,
+      "parada_destino_id": 86,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 86,
+      "parada_destino_id": 87,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 87,
+      "parada_destino_id": 88,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 88,
+      "parada_destino_id": 89,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 89,
+      "parada_destino_id": 90,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 90,
+      "parada_destino_id": 91,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 91,
+      "parada_destino_id": 92,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 92,
+      "parada_destino_id": 93,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 93,
+      "parada_destino_id": 94,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 94,
+      "parada_destino_id": 95,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 95,
+      "parada_destino_id": 96,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 96,
+      "parada_destino_id": 97,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 97,
+      "parada_destino_id": 98,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 98,
+      "parada_destino_id": 82,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 29,
+      "parada_destino_id": 16,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 18,
+      "parada_destino_id": 17,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 19,
+      "parada_destino_id": 18,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 20,
+      "parada_destino_id": 19,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 21,
+      "parada_destino_id": 20,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 22,
+      "parada_destino_id": 21,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 23,
+      "parada_destino_id": 22,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 24,
+      "parada_destino_id": 23,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 25,
+      "parada_destino_id": 24,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 26,
+      "parada_destino_id": 25,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 27,
+      "parada_destino_id": 26,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 28,
+      "parada_destino_id": 27,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 16,
+      "parada_destino_id": 28,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 30,
+      "parada_destino_id": 29,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 31,
+      "parada_destino_id": 30,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 32,
+      "parada_destino_id": 31,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 33,
+      "parada_destino_id": 32,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 34,
+      "parada_destino_id": 33,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 10,
+      "parada_destino_id": 11,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 11,
+      "parada_destino_id": 12,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 12,
+      "parada_origem_id": 13,
+      "parada_destino_id": 14,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 12,
+      "parada_origem_id": 14,
+      "parada_destino_id": 15,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 35,
+      "parada_destino_id": 34,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 36,
+      "parada_destino_id": 35,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 37,
+      "parada_destino_id": 36,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 1,
+      "parada_origem_id": 38,
+      "parada_destino_id": 37,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 40,
+      "parada_destino_id": 39,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 47,
+      "parada_destino_id": 40,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 42,
+      "parada_destino_id": 41,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 43,
+      "parada_destino_id": 42,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 44,
+      "parada_destino_id": 43,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 45,
+      "parada_destino_id": 44,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 46,
+      "parada_destino_id": 45,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 39,
+      "parada_destino_id": 46,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 48,
+      "parada_destino_id": 47,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 49,
+      "parada_destino_id": 48,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 50,
+      "parada_destino_id": 49,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 51,
+      "parada_destino_id": 50,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 2,
+      "parada_origem_id": 52,
+      "parada_destino_id": 51,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 70,
+      "parada_destino_id": 8,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 68,
+      "parada_destino_id": 9,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 62,
+      "parada_destino_id": 63,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 63,
+      "parada_destino_id": 64,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 64,
+      "parada_destino_id": 65,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 65,
+      "parada_destino_id": 66,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 66,
+      "parada_destino_id": 67,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 67,
+      "parada_destino_id": 68,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 9,
+      "parada_destino_id": 69,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 3,
+      "parada_origem_id": 69,
+      "parada_destino_id": 70,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 73,
+      "parada_destino_id": 71,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 71,
+      "parada_destino_id": 72,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 74,
+      "parada_destino_id": 73,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 75,
+      "parada_destino_id": 74,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 76,
+      "parada_destino_id": 75,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 77,
+      "parada_destino_id": 76,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 78,
+      "parada_destino_id": 77,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 79,
+      "parada_destino_id": 78,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 80,
+      "parada_destino_id": 79,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 4,
+      "parada_origem_id": 81,
+      "parada_destino_id": 80,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 83,
+      "parada_destino_id": 82,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 85,
+      "parada_destino_id": 84,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 86,
+      "parada_destino_id": 85,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 87,
+      "parada_destino_id": 86,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 88,
+      "parada_destino_id": 87,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 89,
+      "parada_destino_id": 88,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 90,
+      "parada_destino_id": 89,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 91,
+      "parada_destino_id": 90,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 92,
+      "parada_destino_id": 91,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 93,
+      "parada_destino_id": 92,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 94,
+      "parada_destino_id": 93,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 95,
+      "parada_destino_id": 94,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 96,
+      "parada_destino_id": 95,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 97,
+      "parada_destino_id": 96,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 98,
+      "parada_destino_id": 97,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 5,
+      "parada_origem_id": 82,
+      "parada_destino_id": 98,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 160,
+      "parada_destino_id": 176,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 176,
+      "parada_destino_id": 175,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 175,
+      "parada_destino_id": 174,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 174,
+      "parada_destino_id": 173,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 173,
+      "parada_destino_id": 172,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 172,
+      "parada_destino_id": 171,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 171,
+      "parada_destino_id": 170,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 170,
+      "parada_destino_id": 169,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 169,
+      "parada_destino_id": 168,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 168,
+      "parada_destino_id": 167,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 167,
+      "parada_destino_id": 166,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 166,
+      "parada_destino_id": 165,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 165,
+      "parada_destino_id": 164,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 164,
+      "parada_destino_id": 163,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 163,
+      "parada_destino_id": 162,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 162,
+      "parada_destino_id": 161,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 176,
+      "parada_destino_id": 160,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 175,
+      "parada_destino_id": 176,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 174,
+      "parada_destino_id": 175,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 173,
+      "parada_destino_id": 174,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 172,
+      "parada_destino_id": 173,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 171,
+      "parada_destino_id": 172,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 170,
+      "parada_destino_id": 171,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 169,
+      "parada_destino_id": 170,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 168,
+      "parada_destino_id": 169,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 167,
+      "parada_destino_id": 168,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 166,
+      "parada_destino_id": 167,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 165,
+      "parada_destino_id": 166,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 164,
+      "parada_destino_id": 165,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 163,
+      "parada_destino_id": 164,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 162,
+      "parada_destino_id": 163,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 6,
+      "parada_origem_id": 161,
+      "parada_destino_id": 162,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 177,
+      "parada_destino_id": 178,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 178,
+      "parada_destino_id": 180,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 180,
+      "parada_destino_id": 181,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 181,
+      "parada_destino_id": 179,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 179,
+      "parada_destino_id": 182,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 182,
+      "parada_destino_id": 183,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 183,
+      "parada_destino_id": 184,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 184,
+      "parada_destino_id": 185,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 185,
+      "parada_destino_id": 186,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 186,
+      "parada_destino_id": 187,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 187,
+      "parada_destino_id": 188,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 188,
+      "parada_destino_id": 189,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 189,
+      "parada_destino_id": 190,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 193,
+      "parada_destino_id": 191,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 191,
+      "parada_destino_id": 192,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 192,
+      "parada_destino_id": 194,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 194,
+      "parada_destino_id": 195,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 195,
+      "parada_destino_id": 196,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 196,
+      "parada_destino_id": 197,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 197,
+      "parada_destino_id": 198,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 198,
+      "parada_destino_id": 199,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 199,
+      "parada_destino_id": 200,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 200,
+      "parada_destino_id": 206,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 206,
+      "parada_destino_id": 201,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 201,
+      "parada_destino_id": 202,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 202,
+      "parada_destino_id": 203,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 203,
+      "parada_destino_id": 204,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 204,
+      "parada_destino_id": 205,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 12,
+      "parada_destino_id": 210,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 210,
+      "parada_destino_id": 211,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 211,
+      "parada_destino_id": 212,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 212,
+      "parada_destino_id": 213,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 213,
+      "parada_destino_id": 214,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 214,
+      "parada_destino_id": 219,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 219,
+      "parada_destino_id": 218,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 218,
+      "parada_destino_id": 217,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 217,
+      "parada_destino_id": 216,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 216,
+      "parada_destino_id": 215,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 223,
+      "parada_destino_id": 224,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 224,
+      "parada_destino_id": 225,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 225,
+      "parada_destino_id": 226,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 226,
+      "parada_destino_id": 227,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 227,
+      "parada_destino_id": 228,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 228,
+      "parada_destino_id": 229,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 229,
+      "parada_destino_id": 230,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 230,
+      "parada_destino_id": 231,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 231,
+      "parada_destino_id": 232,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 232,
+      "parada_destino_id": 233,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 178,
+      "parada_destino_id": 177,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 180,
+      "parada_destino_id": 178,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 181,
+      "parada_destino_id": 180,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 179,
+      "parada_destino_id": 181,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 182,
+      "parada_destino_id": 179,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 183,
+      "parada_destino_id": 182,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 184,
+      "parada_destino_id": 183,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 185,
+      "parada_destino_id": 184,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 186,
+      "parada_destino_id": 185,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 187,
+      "parada_destino_id": 186,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 188,
+      "parada_destino_id": 187,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 189,
+      "parada_destino_id": 188,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 9,
+      "parada_origem_id": 190,
+      "parada_destino_id": 189,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 191,
+      "parada_destino_id": 193,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 192,
+      "parada_destino_id": 191,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 194,
+      "parada_destino_id": 192,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 195,
+      "parada_destino_id": 194,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 196,
+      "parada_destino_id": 195,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 197,
+      "parada_destino_id": 196,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 198,
+      "parada_destino_id": 197,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 199,
+      "parada_destino_id": 198,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 200,
+      "parada_destino_id": 199,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 206,
+      "parada_destino_id": 200,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 201,
+      "parada_destino_id": 206,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 202,
+      "parada_destino_id": 201,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 203,
+      "parada_destino_id": 202,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 204,
+      "parada_destino_id": 203,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 10,
+      "parada_origem_id": 205,
+      "parada_destino_id": 204,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 210,
+      "parada_destino_id": 12,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 211,
+      "parada_destino_id": 210,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 212,
+      "parada_destino_id": 211,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 213,
+      "parada_destino_id": 212,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 214,
+      "parada_destino_id": 213,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 219,
+      "parada_destino_id": 214,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 218,
+      "parada_destino_id": 219,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 217,
+      "parada_destino_id": 218,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 216,
+      "parada_destino_id": 217,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 11,
+      "parada_origem_id": 215,
+      "parada_destino_id": 216,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 224,
+      "parada_destino_id": 223,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 225,
+      "parada_destino_id": 224,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 226,
+      "parada_destino_id": 225,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 227,
+      "parada_destino_id": 226,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 228,
+      "parada_destino_id": 227,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 229,
+      "parada_destino_id": 228,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 230,
+      "parada_destino_id": 229,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 231,
+      "parada_destino_id": 230,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 232,
+      "parada_destino_id": 231,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 13,
+      "parada_origem_id": 233,
+      "parada_destino_id": 232,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 121,
+      "parada_destino_id": 117,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 117,
+      "parada_destino_id": 118,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 118,
+      "parada_destino_id": 122,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 122,
+      "parada_destino_id": 123,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 123,
+      "parada_destino_id": 120,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 120,
+      "parada_destino_id": 119,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 119,
+      "parada_destino_id": 124,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 124,
+      "parada_destino_id": 125,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 125,
+      "parada_destino_id": 126,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 126,
+      "parada_destino_id": 127,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 127,
+      "parada_destino_id": 128,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 128,
+      "parada_destino_id": 129,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 129,
+      "parada_destino_id": 130,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 130,
+      "parada_destino_id": 131,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 131,
+      "parada_destino_id": 132,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 132,
+      "parada_destino_id": 133,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 133,
+      "parada_destino_id": 134,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 134,
+      "parada_destino_id": 135,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 135,
+      "parada_destino_id": 136,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 136,
+      "parada_destino_id": 137,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 137,
+      "parada_destino_id": 138,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 138,
+      "parada_destino_id": 139,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 142,
+      "parada_destino_id": 143,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 143,
+      "parada_destino_id": 144,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 144,
+      "parada_destino_id": 145,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 145,
+      "parada_destino_id": 146,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 146,
+      "parada_destino_id": 140,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 140,
+      "parada_destino_id": 147,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 147,
+      "parada_destino_id": 158,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 158,
+      "parada_destino_id": 149,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 149,
+      "parada_destino_id": 148,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 148,
+      "parada_destino_id": 159,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 159,
+      "parada_destino_id": 150,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 150,
+      "parada_destino_id": 151,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 151,
+      "parada_destino_id": 141,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 141,
+      "parada_destino_id": 152,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 152,
+      "parada_destino_id": 153,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 153,
+      "parada_destino_id": 154,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 154,
+      "parada_destino_id": 155,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 155,
+      "parada_destino_id": 156,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 156,
+      "parada_destino_id": 157,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 117,
+      "parada_destino_id": 121,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 118,
+      "parada_destino_id": 117,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 122,
+      "parada_destino_id": 118,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 123,
+      "parada_destino_id": 122,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 120,
+      "parada_destino_id": 123,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 119,
+      "parada_destino_id": 120,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 124,
+      "parada_destino_id": 119,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 125,
+      "parada_destino_id": 124,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 126,
+      "parada_destino_id": 125,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 127,
+      "parada_destino_id": 126,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 128,
+      "parada_destino_id": 127,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 129,
+      "parada_destino_id": 128,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 130,
+      "parada_destino_id": 129,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 131,
+      "parada_destino_id": 130,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 132,
+      "parada_destino_id": 131,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 133,
+      "parada_destino_id": 132,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 134,
+      "parada_destino_id": 133,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 135,
+      "parada_destino_id": 134,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 136,
+      "parada_destino_id": 135,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 137,
+      "parada_destino_id": 136,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 138,
+      "parada_destino_id": 137,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 7,
+      "parada_origem_id": 139,
+      "parada_destino_id": 138,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 143,
+      "parada_destino_id": 142,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 144,
+      "parada_destino_id": 143,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 145,
+      "parada_destino_id": 144,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 146,
+      "parada_destino_id": 145,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 140,
+      "parada_destino_id": 146,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 147,
+      "parada_destino_id": 140,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 158,
+      "parada_destino_id": 147,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 149,
+      "parada_destino_id": 158,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 148,
+      "parada_destino_id": 149,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 159,
+      "parada_destino_id": 148,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 150,
+      "parada_destino_id": 159,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 151,
+      "parada_destino_id": 150,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 141,
+      "parada_destino_id": 151,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 152,
+      "parada_destino_id": 141,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 153,
+      "parada_destino_id": 152,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 154,
+      "parada_destino_id": 153,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 155,
+      "parada_destino_id": 154,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 156,
+      "parada_destino_id": 155,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 8,
+      "parada_origem_id": 157,
+      "parada_destino_id": 156,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    }
+  ],
+  "baldeacoes": [
+    {
+      "estacao_id": 6,
+      "parada_origem_id": 16,
+      "parada_destino_id": 6,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 18,
+      "parada_origem_id": 22,
+      "parada_destino_id": 82,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 20,
+      "parada_origem_id": 24,
+      "parada_destino_id": 39,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 21,
+      "parada_origem_id": 25,
+      "parada_destino_id": 40,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 26,
+      "parada_origem_id": 30,
+      "parada_destino_id": 193,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 26,
+      "parada_origem_id": 30,
+      "parada_destino_id": 72,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 20,
+      "parada_origem_id": 39,
+      "parada_destino_id": 24,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 21,
+      "parada_origem_id": 40,
+      "parada_destino_id": 25,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 35,
+      "parada_origem_id": 41,
+      "parada_destino_id": 223,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 36,
+      "parada_origem_id": 42,
+      "parada_destino_id": 179,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 40,
+      "parada_origem_id": 46,
+      "parada_destino_id": 83,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 1,
+      "parada_destino_id": 177,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 1,
+      "parada_destino_id": 160,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 1,
+      "parada_destino_id": 117,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 4,
+      "parada_origem_id": 4,
+      "parada_destino_id": 71,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 6,
+      "parada_origem_id": 6,
+      "parada_destino_id": 16,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 8,
+      "parada_destino_id": 191,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 8,
+      "parada_destino_id": 178,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 8,
+      "parada_destino_id": 10,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 9,
+      "parada_origem_id": 9,
+      "parada_destino_id": 192,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 9,
+      "parada_origem_id": 9,
+      "parada_destino_id": 11,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 47,
+      "parada_origem_id": 62,
+      "parada_destino_id": 194,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 4,
+      "parada_origem_id": 71,
+      "parada_destino_id": 4,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 26,
+      "parada_origem_id": 72,
+      "parada_destino_id": 193,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 26,
+      "parada_origem_id": 72,
+      "parada_destino_id": 30,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 61,
+      "parada_origem_id": 78,
+      "parada_destino_id": 140,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 18,
+      "parada_origem_id": 82,
+      "parada_destino_id": 22,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 40,
+      "parada_origem_id": 83,
+      "parada_destino_id": 46,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 69,
+      "parada_origem_id": 88,
+      "parada_destino_id": 141,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 10,
+      "parada_destino_id": 191,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 10,
+      "parada_destino_id": 178,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 10,
+      "parada_destino_id": 8,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 9,
+      "parada_origem_id": 11,
+      "parada_destino_id": 192,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 9,
+      "parada_origem_id": 11,
+      "parada_destino_id": 9,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 10,
+      "parada_origem_id": 12,
+      "parada_destino_id": 13,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 10,
+      "parada_origem_id": 13,
+      "parada_destino_id": 12,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 117,
+      "parada_destino_id": 177,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 117,
+      "parada_destino_id": 160,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 117,
+      "parada_destino_id": 1,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 104,
+      "parada_origem_id": 118,
+      "parada_destino_id": 175,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 105,
+      "parada_origem_id": 119,
+      "parada_destino_id": 142,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 106,
+      "parada_origem_id": 120,
+      "parada_destino_id": 143,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 61,
+      "parada_origem_id": 140,
+      "parada_destino_id": 78,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 69,
+      "parada_origem_id": 141,
+      "parada_destino_id": 88,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 105,
+      "parada_origem_id": 142,
+      "parada_destino_id": 119,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 106,
+      "parada_origem_id": 143,
+      "parada_destino_id": 120,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 160,
+      "parada_destino_id": 177,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 160,
+      "parada_destino_id": 117,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 160,
+      "parada_destino_id": 1,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 104,
+      "parada_origem_id": 175,
+      "parada_destino_id": 118,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 177,
+      "parada_destino_id": 160,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 177,
+      "parada_destino_id": 117,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 1,
+      "parada_origem_id": 177,
+      "parada_destino_id": 1,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 178,
+      "parada_destino_id": 191,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 178,
+      "parada_destino_id": 10,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 178,
+      "parada_destino_id": 8,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 36,
+      "parada_origem_id": 179,
+      "parada_destino_id": 42,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 191,
+      "parada_destino_id": 178,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 191,
+      "parada_destino_id": 10,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 8,
+      "parada_origem_id": 191,
+      "parada_destino_id": 8,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 9,
+      "parada_origem_id": 192,
+      "parada_destino_id": 11,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 9,
+      "parada_origem_id": 192,
+      "parada_destino_id": 9,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 26,
+      "parada_origem_id": 193,
+      "parada_destino_id": 72,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 26,
+      "parada_origem_id": 193,
+      "parada_destino_id": 30,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 47,
+      "parada_origem_id": 194,
+      "parada_destino_id": 62,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 138,
+      "parada_origem_id": 206,
+      "parada_destino_id": 215,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 138,
+      "parada_origem_id": 215,
+      "parada_destino_id": 206,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 35,
+      "parada_origem_id": 223,
+      "parada_destino_id": 41,
+      "tempo_segundos": 180
+    }
+  ]
+}

@@ -1,7 +1,6 @@
-import { getBaldeacoes, getEstacoesDaLinha, getParadasLinha, getTrechosLinha } from "./api.js"
+import { getBaldeacoes, getEstacoes, getEstacoesDaLinha, getParadasLinha, getTrechosLinha } from "./api.js"
 import { criarGrafo } from "./graph.js"
 import { encontrarRota } from "./route.js"
-import { supabase } from "./supabase.js"
 
 let estacoes = []
 let grafo = {}
@@ -34,10 +33,7 @@ await carregarTelaResultado()
 
 async function carregarEstacoes(){
 
-const { data } = await supabase
-.from("estacoes")
-.select("*")
-.order("nome")
+const data = await getEstacoes()
 
 estacoes = Array.isArray(data) ? data : []
 estacoesPorNome = {}

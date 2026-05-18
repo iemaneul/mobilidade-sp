@@ -1,87 +1,101 @@
-import { supabase } from "./supabase.js"
+let bancoPromise = null
+let mapasPromise = null
+
+async function carregarBanco(){
+
+if(!bancoPromise){
+bancoPromise = fetch(new URL("../data/metro-data.json", import.meta.url))
+.then(async resposta=>{
+if(!resposta.ok){
+throw new Error(`Falha ao carregar a base local: ${resposta.status}`)
+}
+
+return resposta.json()
+})
+}
+
+return bancoPromise
+
+}
+
+async function carregarMapas(){
+
+if(!mapasPromise){
+mapasPromise = carregarBanco().then(banco=>{
+const linhas = Array.isArray(banco?.linhas) ? banco.linhas : []
+const estacoes = Array.isArray(banco?.estacoes) ? banco.estacoes : []
+
+return {
+linhas,
+estacoes,
+linhasPorId: Object.fromEntries(linhas.map(linha=>[linha.id, linha])),
+estacoesPorId: Object.fromEntries(estacoes.map(estacao=>[estacao.id, estacao]))
+}
+})
+}
+
+return mapasPromise
+
+}
 
 export async function getLinhas(){
 
-const { data } = await supabase
-.from("linhas")
-.select("*")
-.order("numero")
+const banco = await carregarBanco()
 
-return data
+return Array.isArray(banco?.linhas) ? banco.linhas : []
+
+}
+
+export async function getEstacoes(){
+
+const banco = await carregarBanco()
+
+return Array.isArray(banco?.estacoes) ? banco.estacoes : []
 
 }
 
 export async function getEstacoesDaLinha(linhaId){
 
-const { data } = await supabase
-.from("paradas_linha")
-.select(`
-ordem,
-estacoes(*)
-`)
-.eq("linha_id", linhaId)
-.order("ordem")
+const banco = await carregarBanco()
+const estacoesPorId = (await carregarMapas()).estacoesPorId
+const paradas = Array.isArray(banco?.paradas_linha) ? banco.paradas_linha : []
 
-return data
+return paradas
+.filter(parada=>parada.linha_id === linhaId)
+.sort((a, b)=>Number(a.ordem) - Number(b.ordem))
+.map(parada=>({
+ordem: parada.ordem,
+estacoes: estacoesPorId[parada.estacao_id] || null
+}))
 
 }
 
 export async function getParadasLinha(){
 
-const { data } = await supabase
-.from("paradas_linha")
-.select(`
-id,
-linha_id,
-estacao_id,
-ordem,
-nome_exibicao,
-linhas(
-id,
-numero,
-nome,
-cor,
-text_color
-),
-estacoes(
-id,
-nome
-)
-`)
-.order("linha_id")
-.order("ordem")
+const banco = await carregarBanco()
+const { linhasPorId, estacoesPorId } = await carregarMapas()
+const paradas = Array.isArray(banco?.paradas_linha) ? banco.paradas_linha : []
 
-return data
+return paradas.map(parada=>({
+...parada,
+linhas: linhasPorId[parada.linha_id] || null,
+estacoes: estacoesPorId[parada.estacao_id] || null
+}))
 
 }
 
 export async function getTrechosLinha(){
 
-const { data } = await supabase
-.from("trechos_linha")
-.select(`
-linha_id,
-parada_origem_id,
-parada_destino_id,
-tempo_segundos,
-bidirecional
-`)
+const banco = await carregarBanco()
 
-return data
+return Array.isArray(banco?.trechos_linha) ? banco.trechos_linha : []
 
 }
 
 export async function getBaldeacoes(){
 
-const { data } = await supabase
-.from("baldeacoes")
-.select(`
-estacao_id,
-parada_origem_id,
-parada_destino_id,
-tempo_segundos
-`)
+const banco = await carregarBanco()
 
-return data
+return Array.isArray(banco?.baldeacoes) ? banco.baldeacoes : []
 
 }
