@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+    <title>Mobilidade SP</title>
+
+    <script>
+    (function () {
+        const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+        const isSmallScreen = window.innerWidth <= 768;
+
+        if (!isMobile && !isSmallScreen && !window.location.pathname.includes("desktop-block")) {
+            window.location.href = "desktop-block.html";
+        }
+    })();
+    </script>
+
+<link rel="stylesheet" href="../css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0053A0">
+</head>
+
+<body>
+
+    <section id="header">
+        <div class="navbar">
+            <div class="title">
+                <a href="./routes.html" class="back-link" aria-label="Voltar"><span class="back-icon">&lt;</span></a>
+                <h1>Escolha uma rota</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="tela-opcoes">
+
+        <div class="topo-rota">
+            <p><strong>Origem:</strong> <span id="origem-nome"></span></p>
+            <p><strong>Destino:</strong> <span id="destino-nome"></span></p>
+        </div>
+
+        <div id="opcoes"></div>
+
+    </section>
+
+    <script type="module" src="../js/app.js"></script>
+
+</body>
+</html>

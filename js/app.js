@@ -1,6 +1,6 @@
 import { getBaldeacoes, getEstacoes, getEstacoesDaLinha, getParadasLinha, getTrechosLinha } from "./api.js"
 import { criarGrafo } from "./graph.js"
-import { encontrarRota } from "./route.js"
+import { encontrarKRotas, encontrarRota } from "./route.js"
 
 let estacoes = []
 let grafo = {}
@@ -23,6 +23,10 @@ await carregarGrafo()
 
 if(document.getElementById("buscar")){
 configurarTelaBusca()
+}
+
+if(document.getElementById("opcoes")){
+await carregarTelaOpcoes()
 }
 
 if(document.getElementById("resultado")){
@@ -138,7 +142,7 @@ origem: origem.id,
 destino: destino.id
 })
 
-window.location.href = `./result.html?${params.toString()}`
+window.location.href = `./route-options.html?${params.toString()}`
 
 }
 
@@ -399,7 +403,7 @@ return
 document.getElementById("origem-nome").innerText = origem.nome
 document.getElementById("destino-nome").innerText = destino.nome
 
-const rota = encontrarRota(
+const rota = obterRotaEscolhidaDaUrl(params) || encontrarRota(
 grafo,
 paradasOrigem.map(parada=>parada.id),
 paradasDestino.map(parada=>parada.id)
@@ -412,6 +416,161 @@ return
 
 await carregarEstacoesOrdenadasDasLinhas(rota)
 mostrarResultado(rota)
+
+}
+
+function obterRotaEscolhidaDaUrl(params){
+
+const rotaParam = params.get("rota")
+
+if(!rotaParam){
+return null
+}
+
+const paradasIds = rotaParam.split(",").map(Number)
+
+if(paradasIds.length === 0 || paradasIds.some(id=>!Number.isInteger(id) || !paradasPorId[id])){
+return null
+}
+
+return paradasIds
+
+}
+
+async function carregarTelaOpcoes(){
+
+const params = new URLSearchParams(window.location.search)
+const origemId = parseInt(params.get("origem"))
+const destinoId = parseInt(params.get("destino"))
+
+if(!origemId || !destinoId){
+mostrarMensagemOpcoes("Informe origem e destino pela URL para ver as opções de rota.")
+return
+}
+
+const origem = estacoes.find(estacao=>estacao.id === origemId)
+const destino = estacoes.find(estacao=>estacao.id === destinoId)
+const paradasOrigem = paradasPorEstacao[origemId] || []
+const paradasDestino = paradasPorEstacao[destinoId] || []
+
+if(!origem || !destino || paradasOrigem.length === 0 || paradasDestino.length === 0){
+mostrarMensagemOpcoes("Nao foi possivel localizar as estacoes informadas.")
+return
+}
+
+document.getElementById("origem-nome").innerText = origem.nome
+document.getElementById("destino-nome").innerText = destino.nome
+
+const candidatas = encontrarKRotas(
+grafo,
+paradasOrigem.map(parada=>parada.id),
+paradasDestino.map(parada=>parada.id),
+8
+)
+
+if(candidatas.length === 0){
+mostrarMensagemOpcoes("Nenhuma rota encontrada para os parametros informados.")
+return
+}
+
+const opcoes = selecionarOpcoesPorLinhasDistintas(candidatas).slice(0, 3)
+
+mostrarOpcoes(opcoes, origemId, destinoId)
+
+}
+
+function selecionarOpcoesPorLinhasDistintas(candidatas){
+
+const assinaturasVistas = new Set()
+const selecionadas = []
+const tempoMaisRapido = candidatas[0].tempo
+const tempoLimite = Math.max(tempoMaisRapido * 1.5, tempoMaisRapido + 600)
+
+candidatas.forEach(candidata=>{
+
+if(candidata.tempo > tempoLimite){
+return
+}
+
+const segmentos = criarSegmentosDaRota(candidata.rota)
+const assinatura = segmentos.map(segmento=>segmento.linha?.id).join("-")
+
+if(assinaturasVistas.has(assinatura)){
+return
+}
+
+assinaturasVistas.add(assinatura)
+selecionadas.push({
+...candidata,
+segmentos
+})
+
+})
+
+return selecionadas
+
+}
+
+function mostrarOpcoes(opcoes, origemId, destinoId){
+
+const cont = document.getElementById("opcoes")
+
+cont.innerHTML = opcoes.map((opcao, indice)=>renderizarOpcao(opcao, indice)).join("")
+
+opcoes.forEach((opcao, indice)=>{
+document.getElementById(`opcao-${indice}`)?.addEventListener("click", ()=>{
+
+const params = new URLSearchParams({
+origem: origemId,
+destino: destinoId,
+rota: opcao.rota.join(",")
+})
+
+window.location.href = `./result.html?${params.toString()}`
+
+})
+})
+
+}
+
+function renderizarOpcao(opcao, indice){
+
+const badges = opcao.segmentos
+.map(segmento=>{
+const corLinha = normalizarCor(segmento.linha?.cor, "#0053A0")
+const corTexto = normalizarCor(segmento.linha?.text_color, "#FFFFFF")
+
+return `<span class="linha-badge linha-badge-opcao" style="background-color: ${corLinha}; color: ${corTexto};">${escapeHtml(segmento.linha?.numero ?? "?")}</span>`
+})
+.join(`<span class="opcao-seta">&rarr;</span>`)
+
+const numeroBaldeacoes = Math.max(opcao.segmentos.length - 1, 0)
+const descricaoBaldeacoes = numeroBaldeacoes === 0
+? "Sem baldeacao"
+: numeroBaldeacoes === 1
+? "1 baldeacao"
+: `${numeroBaldeacoes} baldeacoes`
+
+return `
+<button type="button" id="opcao-${indice}" class="opcao-rota">
+<div class="opcao-rota-topo">
+<span class="opcao-rota-titulo">Opção ${indice + 1}</span>
+<span class="opcao-rota-tempo">${formatarTempo(opcao.tempo)}</span>
+</div>
+<div class="opcao-rota-linhas">${badges}</div>
+<p class="opcao-rota-baldeacoes">${descricaoBaldeacoes}</p>
+</button>
+`
+
+}
+
+function mostrarMensagemOpcoes(texto){
+
+const cont = document.getElementById("opcoes")
+
+if(cont){
+cont.innerHTML = `<p class="mensagem-resultado">${texto}</p>`
+}
 
 }
 
