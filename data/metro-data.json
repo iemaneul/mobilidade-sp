@@ -55,6 +55,15 @@
       "ativo": true
     },
     {
+      "id": 17,
+      "numero": "17",
+      "nome": "Ouro",
+      "cor": "#917E5A",
+      "text_color": "#FFFFFF",
+      "operadora": "Metro",
+      "ativo": true
+    },
+    {
       "id": 2,
       "numero": "2",
       "nome": "Verde",
@@ -858,6 +867,41 @@
       "id": 171,
       "nome": "Morumbi",
       "slug": "morumbi",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 172,
+      "nome": "Chucri Zaidan",
+      "slug": "chucri-zaidan",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 173,
+      "nome": "Vila Cordeiro",
+      "slug": "vila-cordeiro",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 174,
+      "nome": "Vereador Jose Diniz",
+      "slug": "vereador-jose-diniz",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 175,
+      "nome": "Brooklin Paulista",
+      "slug": "brooklin-paulista",
+      "municipio": "Sao Paulo",
+      "ativo": true
+    },
+    {
+      "id": 176,
+      "nome": "Aeroporto Congonhas",
+      "slug": "aeroporto-congonhas",
       "municipio": "Sao Paulo",
       "ativo": true
     },
@@ -2745,6 +2789,55 @@
       "estacao_id": 89,
       "ordem": 11,
       "nome_exibicao": "Jardim Colonial"
+    },
+    {
+      "id": 234,
+      "linha_id": 17,
+      "estacao_id": 171,
+      "ordem": 1,
+      "nome_exibicao": "Morumbi"
+    },
+    {
+      "id": 235,
+      "linha_id": 17,
+      "estacao_id": 172,
+      "ordem": 2,
+      "nome_exibicao": "Chucri Zaidan"
+    },
+    {
+      "id": 236,
+      "linha_id": 17,
+      "estacao_id": 173,
+      "ordem": 3,
+      "nome_exibicao": "Vila Cordeiro"
+    },
+    {
+      "id": 237,
+      "linha_id": 17,
+      "estacao_id": 75,
+      "ordem": 4,
+      "nome_exibicao": "Campo Belo"
+    },
+    {
+      "id": 238,
+      "linha_id": 17,
+      "estacao_id": 174,
+      "ordem": 5,
+      "nome_exibicao": "Vereador Jose Diniz"
+    },
+    {
+      "id": 239,
+      "linha_id": 17,
+      "estacao_id": 175,
+      "ordem": 6,
+      "nome_exibicao": "Brooklin Paulista"
+    },
+    {
+      "id": 240,
+      "linha_id": 17,
+      "estacao_id": 176,
+      "ordem": 7,
+      "nome_exibicao": "Aeroporto Congonhas"
     }
   ],
   "trechos_linha": [
@@ -5379,6 +5472,90 @@
       "parada_destino_id": 156,
       "tempo_segundos": 120,
       "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 234,
+      "parada_destino_id": 235,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 235,
+      "parada_destino_id": 236,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 236,
+      "parada_destino_id": 237,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 237,
+      "parada_destino_id": 238,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 238,
+      "parada_destino_id": 239,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 239,
+      "parada_destino_id": 240,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 235,
+      "parada_destino_id": 234,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 236,
+      "parada_destino_id": 235,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 237,
+      "parada_destino_id": 236,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 238,
+      "parada_destino_id": 237,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 239,
+      "parada_destino_id": 238,
+      "tempo_segundos": 120,
+      "bidirecional": true
+    },
+    {
+      "linha_id": 17,
+      "parada_origem_id": 240,
+      "parada_destino_id": 239,
+      "tempo_segundos": 120,
+      "bidirecional": true
     }
   ],
   "baldeacoes": [
@@ -5788,6 +5965,30 @@
       "estacao_id": 35,
       "parada_origem_id": 223,
       "parada_destino_id": 41,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 171,
+      "parada_origem_id": 159,
+      "parada_destino_id": 234,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 171,
+      "parada_origem_id": 234,
+      "parada_destino_id": 159,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 75,
+      "parada_origem_id": 94,
+      "parada_destino_id": 237,
+      "tempo_segundos": 180
+    },
+    {
+      "estacao_id": 75,
+      "parada_origem_id": 237,
+      "parada_destino_id": 94,
       "tempo_segundos": 180
     }
   ]
